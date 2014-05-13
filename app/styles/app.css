@@ -1,0 +1,36 @@
+html, body {
+  margin: 20px;
+}
+
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h1 {
+	font-weight: 200;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	font-size: 14px;
+}
+
+input[type="text"] {
+	text-align: right;
+}
+
+.percent {
+	width: 25px;
+}
+
+.revenue {
+	width: 60px;
+}
+
+#potential-gains {
+	color: #C90400;
+	font-size: 25px;
+}

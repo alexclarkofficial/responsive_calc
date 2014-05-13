@@ -1,0 +1,21 @@
+<div class="calculator">
+<h1>Calculate your potential sales increase from a mobile responsive website</h1>
+<div>Enter the percentage of visitors who are mobile:
+  {{input value=mobilePercent type='text' class="percent"}}%
+</div>
+<div>Enter your sites total revenue: 
+  ${{input value=revenue type='text' class="revenue"}}
+</div>
+<div>
+  Your current mobile revenue: ${{currentMobileRevenue}}
+</div>
+<div>
+  Your potential mobile revenue: ${{potentialMobileRevenue}}
+</div>
+<div>
+  Your potential sales increase from responsive design: <span id="potential-gains">${{potentialGains}}</span>
+</div>
+<footer>
+  These number are an approximation based off of typical conversion factors for PC and mobile sites.  This tools assumes the value for PC conversions to be {{input value=pcConversionRate type="text" class="percent"}}%, responsive mobile conversions to be {{input value=responsiveMobileConversionRate  type="text" class="percent"}}%, and non-responsive mobile conversions to be {{input value=nonresponsiveMobileConversionRate  type="text" class="percent"}}%.
+</footer>
+</div>
