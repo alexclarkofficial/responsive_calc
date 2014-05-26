@@ -3,6 +3,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+	this.route("application", { path: "/responsive-calc"});
 });
 
 export default Router;

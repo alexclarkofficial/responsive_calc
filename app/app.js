@@ -1,3 +1,6 @@
+import dollarFormatHelper from './helpers/dollarFormat';
+Ember.Handlebars.registerBoundHelper('dollarFormat', dollarFormatHelper);
+
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
 

@@ -12,11 +12,6 @@ h1 {
 	font-weight: 200;
 }
 
-footer {
-	position: absolute;
-	bottom: 10px;
-	font-size: 14px;
-}
 
 input[type="text"] {
 	text-align: right;
@@ -33,4 +28,18 @@ input[type="text"] {
 #potential-gains {
 	color: #C90400;
 	font-size: 25px;
+}
+
+footer {
+	padding-top: 80px; 
+	position: absolute;
+	bottom: 10px;
+	font-size: 14px;
+}
+
+@media all and (max-width: 400px) {
+	footer {
+		position: relative;
+		display: block;
+	}
 }
